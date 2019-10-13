@@ -6,7 +6,7 @@ Copyright (C) 2019 THL A29 Limited, a Tencent company. All rights reserved.
 @Author: judezhang (judezhang@tencent.com)
 @Last Modified: 2019-06-17 11:30:26
 @Modified By: judezhang (judezhang@tencent.com)
-@Brief: this is a simple description...
+@Brief: python -m unittest -v test_tdd_bowling_game.py
 '''
 
 '''
@@ -19,7 +19,7 @@ Copyright (C) 2019 THL A29 Limited, a Tencent company. All rights reserved.
 import unittest
 
 import sys
-sys.path.append("../")
+sys.path.append("../src")
 from tdd_bowling_game import BowlingGame
 
 class TestBowlingGame(unittest.TestCase):
